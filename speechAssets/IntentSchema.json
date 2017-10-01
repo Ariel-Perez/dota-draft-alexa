@@ -1,7 +1,61 @@
 {
   "intents": [
     {
-      "intent": "GetNewFactIntent"
+      "intent": "StartIntent",
+      "slots": [
+        {
+          "name": "mode",
+          "type": "GAME_MODE"
+        }
+      ]
+    },
+    {
+      "intent": "SuggestPickIntent"
+    },
+    {
+      "intent": "SuggestBanIntent"
+    },
+    {
+      "intent": "PlayerPickIntent",
+      "slots": [
+        {
+          "name": "hero",
+          "type": "HERO"
+        }
+      ]
+    },
+    {
+      "intent": "PlayerBanIntent",
+      "slots": [
+        {
+          "name": "hero",
+          "type": "HERO"
+        }
+      ]
+    },
+    {
+      "intent": "EnemyPickIntent",
+      "slots": [
+        {
+          "name": "hero",
+          "type": "HERO"
+        }
+      ]
+    },
+    {
+      "intent": "EnemyBanIntent",
+      "slots": [
+        {
+          "name": "hero",
+          "type": "HERO"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
     },
     {
       "intent": "AMAZON.HelpIntent"

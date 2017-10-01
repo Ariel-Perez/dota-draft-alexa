@@ -1,4 +1,36 @@
-GetNewFactIntent a fact
-GetNewFactIntent tell me a fact
-GetNewFactIntent give me a fact
-GetNewFactIntent give me something
+StartIntent Start {mode}
+StartIntent Start a {mode} game
+StartIntent Start a {mode} draft
+StartIntent Draft {mode}
+StartIntent Draft for {mode}
+StartIntent {mode}
+StartIntent Start
+StartIntent Start a game
+StartIntent Draft
+StartIntent Start a draft
+PlayerPickIntent We picked {hero}
+PlayerPickIntent I picked {hero}
+PlayerPickIntent Picked {hero}
+EnemyPickIntent They picked {hero}
+PlayerBanIntent We banned {hero}
+PlayerBanIntent Banned {hero}
+EnemyBanIntent They banned {hero}
+SuggestPickIntent Suggest me a hero to pick
+SuggestPickIntent Suggest a pick
+SuggestPickIntent Suggest a hero
+SuggestPickIntent Who should I pick
+SuggestPickIntent Who should we pick
+SuggestPickIntent Who do I pick
+SuggestPickIntent Who do we pick
+SuggestPickIntent What to pick
+SuggestPickIntent What can I pick
+SuggestPickIntent What can we pick
+SuggestPickIntent What do I get
+SuggestPickIntent What do we get
+SuggestPickIntent What can I get
+SuggestPickIntent What can we get
+SuggestBanIntent What do they want
+SuggestBanIntent What should I ban
+SuggestBanIntent What should we ban
+SuggestBanIntent Who do I ban
+SuggestBanIntent Who do we ban
